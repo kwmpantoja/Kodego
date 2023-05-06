@@ -1,0 +1,36 @@
+.parent{
+    display: flex;
+    border: 1px solid red;
+    flex-flow: row nowrap;
+    height: 200px;
+    width: 1800px;
+}
+
+.item-header{
+    border: 1px solid blue;
+    width: 900px
+}
+
+.item-menu{
+    border: 1px solid orange;
+    width: 896px;
+    height: 200px;
+}
+
+.article-parent{
+    display: flex;
+    border: 1px solid black;
+}
+
+
+.item-footer-content{
+    border: 1px solid gray;
+    width: 1800px;
+    
+}
+
+.item-article{
+    width: 448px;
+    height: 178px;
+    border: 1px solid black;
+}

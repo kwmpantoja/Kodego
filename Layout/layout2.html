@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Responsive Web Design</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            height: 100vh;
+            width: 80%;
+            margin: 0px auto;
+            background: lightblue;
+            border: 1px solid black;
+        }
+
+        header{
+            display: flex;
+            flex-direction: column;
+        }
+
+        header > .logo-nav-area{
+            display: flex;
+            min-height: 50px;
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER PART -->
+    <header>
+        <div class="logo-nav-area">
+            <div class="logo-area">Logo Here</div>
+            <div class="nav-area">Navigation Here</div>
+
+        </div>
+        <div class="banner-area">
+               Banner Here
+        </div>
+    </header>
+     <!-- MAIN PART -->
+    <main>
+        <div class="box-area">Box Area 1</div>
+        <div class="box-area">Box Area 2</div>
+        <div class="box-area">Box Area 3</div>
+
+    </main>
+      <!-- FOOTER PART -->
+    <footer>
+         <div class="footer-area">Footer</div>
+
+    
+    </footer>
+    
+</body>
+</html>

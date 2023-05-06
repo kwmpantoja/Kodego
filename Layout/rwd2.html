@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            width: 80%;
+            display: flex;
+            background-color: lightcyan;
+            height: 100vh;
+            margin: 0px auto;
+            flex-direction: column;
+            background: url(https://media.istockphoto.com/id/1060517676/photo/mount-fuji-at-lake-kawaguchiko-with-cherry-blossom-in-yamanashi-near-tokyo-japan.jpg?b=1&s=612x612&w=0&k=20&c=MWlcDzRLztejkMBXYxewlaBG4BZL00yYD1tAnIaAGjU=);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
+        header{
+            display: flex;
+            min-height: 50px;
+            background: maroon;
+            justify-content: center;
+        }
+
+        main{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .left-area{
+            background: lightgreen;
+            display: flex;
+            justify-content: center;
+            flex-basis: 30%;
+            min-height: 60vh;
+            align-content: center;
+        }
+
+        .right-area{
+            display: flex;
+            flex-basis: 70%;
+            background: yellow;
+            align-content: center;
+        }
+
+        .right-area div{
+            min-height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-content: center
+        }
+
+        footer{
+            display: flex;
+            background: green;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px){
+            body{
+                background: url(https://images.pexels.com/photos/712473/pexels-photo-712473.jpeg?auto=compress&cs=tinysrgb&w=1600);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            main{
+                flex-direction: column;   
+            }
+            .left-area{
+                margin-top: 20px;
+                min-height: 20vh;
+            }
+            .right-area{
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="logo">Logo</header>
+    <main>
+         <div class="left-area">
+            <div class="nav-area">Left Side Navigation</div>
+         </div>
+
+         <div class="right-area">
+            <div class="header-area">Banner</div>
+            <div class="body-area">Body Area</div>
+         </div>
+    </main>
+    <footer>
+        <div class="classfooter-area">Footer</div>
+    </footer>
+</body>
+</html>

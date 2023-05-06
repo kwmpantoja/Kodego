@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex2</title>
+    <style>
+        .parentClass{
+            display: flex;
+            /* flex-direction:row; 
+            flex-flow: column wrap;
+            justify-content: center; */
+            height: 500px; 
+            border: 1px solid red;
+            /* align-items: center;  */
+            /* align-content dapat ung flex-wrap = wrap */
+        }
+
+        .ChildClass{
+            width: 200px;
+            height: 300px
+        }
+
+        .parentClass > div:nth-child(1){
+            background-color: aqua;
+            align-self:center
+        }
+
+        .parentClass > div:nth-child(2){
+            background-color: brown;
+        }
+
+        .parentClass > div:nth-child(3){
+            background-color: green;
+        }
+
+        .parentClass > div:nth-child(4){
+            background-color: red;
+        }
+
+        .parentClass > div:nth-child(5){
+            background-color: black;
+        }
+
+        .parentClass > div:nth-child(6){
+            background-color: gray;
+        }
+
+        .parentClass > div:nth-child(7){
+            background-color: violet;
+            flex-basis: 100px;
+        }
+
+        .parentClass > div:nth-child(8){
+            background-color: pink;
+        }
+
+        .parentClass > div:nth-child(9){
+            background-color: blue;
+        }
+
+        .parentClass > div:nth-child(10){
+            background-color: orange;
+            flex-basis: px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parentClass">
+       <div class="ChildClass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, illum.</div>
+       <div class="ChildClass">Lorem ipsum dolor sit amet.</div>
+       <div class="ChildClass">3</div>
+       <div class="ChildClass">4</div>
+       <div class="ChildClass">5</div>
+       <div class="ChildClass">6</div>
+       <div class="ChildClass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aperiam voluptatem optio sequi blanditiis quia.</div>
+       <div class="ChildClass">8</div>
+       <div class="ChildClass">9</div>
+       <div class="ChildClass">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum consequuntur saepe aliquam qui atque, temporibus ex quod voluptas nemo harum quos veniam? Odio dolores soluta ipsum officia? Quidem, mollitia doloremque?</div>
+
+    </div>
+</body>
+</html>

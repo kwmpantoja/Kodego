@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+        body{
+            height: 1000px;
+        }
+
+        li{
+            list-style: none;
+            display: inline;
+            padding: 20px;
+            margin: 20px;
+        }
+        .fixed{
+            position: fixed;
+        }
+
+        .relative{
+            position: relative;
+            top: 100px;
+            border: 1px solid blue ;
+        }
+
+        .absolute{
+            position: absolute;
+            border: 1px solid red;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="fixed">
+       <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                
+            </ul>
+       </nav>
+    </div>
+    <div class="relative">
+        <h1>Relative</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, delectus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatem odio necessitatibus ab nihil consectetur tempora reiciendis, harum nisi quod sapiente illum repudiandae nesciunt nostrum optio inventore iste ut quibusdam voluptates doloribus blanditiis pariatur ratione. Blanditiis exercitationem aspernatur, praesentium quae facere ipsam iure quos asperiores eum aut officiis doloremque quam.</p>
+    </div>
+
+    <div class="absolute">
+        <h1>Absolute</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, delectus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatem odio necessitatibus ab nihil consectetur tempora reiciendis, harum nisi quod sapiente illum repudiandae nesciunt nostrum optio inventore iste ut quibusdam voluptates doloribus blanditiis pariatur ratione. Blanditiis exercitationem aspernatur, praesentium quae facere ipsam iure quos asperiores eum aut officiis doloremque quam.</p>
+    </div>
+    
+</body>
+</html>

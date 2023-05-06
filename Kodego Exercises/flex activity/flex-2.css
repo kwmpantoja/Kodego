@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.parent{
+    display: flex;
+    border:1px solid red;
+    flex-flow: row nowrap;
+    height: 500px;
+    width: 1500px;
+
+}
+
+.header{
+    border: 1px solid aqua;
+    width: 753px;
+    height: 250px;
+}
+
+.menu{
+    border: 1px solid pink;
+    width: 746px;
+    height: 500px;
+}
+
+.article-parent{
+    display: flex;
+}
+
+
+
+.footer-content{
+    border: 1px solid blue;
+    height: 100px;
+    width:1500px
+}
+
+.article{
+    height: 248px;
+    width: 376px;
+    border: 1px solid black
+}

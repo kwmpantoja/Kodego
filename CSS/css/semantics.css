@@ -1,0 +1,17 @@
+h1{
+    color: brown;
+}
+
+#about-id{
+    color: pink;
+}
+
+.small-details{
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+section{
+    width: 80%;
+    margin:0px auto
+}
