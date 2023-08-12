@@ -1,0 +1,103 @@
+* {
+  color: #eee !important;
+}
+
+.myHomeMainContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000055;
+  height: 100vh;
+  padding-bottom: 100px;
+}
+
+.myHomeRootContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rightSlideInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+  background: linear-gradient(90deg, #000, #333);
+}
+.homePlayButton {
+  font-weight: "bold";
+  width: "fit-content";
+  color: "#fff";
+  border-color: "#fff";
+}
+
+.homePlayButton:hover {
+  background: #000 !important;
+  border-color: #e2c044 !important;
+  color: #e2c044 !important;
+}
+
+.Left {
+  order: -1;
+}
+
+.stacked-carousel-responsive-container {
+  width: 88% !important;
+}
+
+.twitch-button {
+  background-color: #e2c044 !important;
+}
+
+.twitch-button:hover {
+  background-color: red !important;
+}
+
+.overviewText {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.react-stacked-center-carousel-slide-1 > *,
+.react-stacked-center-carousel-slide--1 > * {
+  opacity: 0.5 !important;
+  transition: opacity 300ms ease !important;
+}
+.react-stacked-center-carousel-slide-2 > *,
+.react-stacked-center-carousel-slide--2 > * {
+  opacity: 0.2 !important;
+  transition: opacity 300ms ease !important;
+}
+.react-stacked-center-carousel-slide-0 > * {
+  opacity: 1 !important;
+  transition: opacity 300ms ease !important;
+}
+
+.react-stacked-center-carousel-slide-0,
+.react-stacked-center-carousel-slide-1,
+.react-stacked-center-carousel-slide--1,
+.react-stacked-center-carousel-slide-2,
+.react-stacked-center-carousel-slide--2,
+.react-stacked-center-carousel-slide-3 .react-stacked-center-carousel-slide--3 {
+  background-color: #000 !important;
+}
+
+.my-slide-component,
+.react-stacked-center-carousel-slide-0 {
+  border-radius: 5px !important;
+  overflow: hidden;
+}
+
+@media (max-width: 700px) {
+  .twitch-button {
+    display: none !important;
+  }
+}
